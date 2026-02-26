@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header> 
+        <h1>Astro Boys</h1> 
+        <nav> 
+            <ul> 
+                <li><a href="#s1" >Historia</a></li> 
+                <li><a href="#s2" >Información</a></li>
+                 <li><a href="#s3" >Ficha técnica</a></li> 
+                <li><a href="#s4" >Registro de fans</a></li> 
+                <li><a href="#s5" >Galería</a></li> 
+            </ul> 
+        </nav> 
+    </header> 
+ 
+    <main> 
+        <section> 
+            <h2 id="s1">Historia</h2> 
+ 
+            <p>Astro Boy, conocido en Japón como Tetsuwan Atom, es uno de los personajes más emblemáticos del manga y el anime, creado en 1952 por el influyente artista Osamu Tezuka. La historia relata cómo un brillante científico construye un robot con apariencia y emociones humanas para reemplazar a su hijo fallecido, pero al darse cuenta de que no puede crecer como un niño normal, lo abandona; posteriormente, el robot es adoptado por otro científico que lo guía para convertirse en un defensor de la justicia. Equipado con fuerza sobrehumana, la capacidad de volar gracias a propulsores en sus pies, visión láser y un fuerte sentido moral, Astro Boy dedica su existencia a proteger tanto a humanos como a robots en un mundo futurista marcado por avances tecnológicos y dilemas éticos. Su adaptación televisiva en 1963, producida por Mushi Production, fue una de las primeras series de anime en emitirse en Japón, marcando un antes y un después en la industria y consolidando al personaje como un ícono cultural que influyó profundamente en la animación y la ciencia ficción a nivel mundial.</p>
+        </section> 
+         
+        <section> 
+            <h2 id="s2">Información</h2> 
+ 
+            <ul>
+            <li> Fuerza sobrehumana: Posee una potencia increíble que le permite levantar objetos extremadamente pesados y enfrentarse a poderosos enemigos.</li>
+            <li> Capacidad de volar: Gracias a propulsores integrados en sus pies, puede desplazarse por el aire a gran velocidad.</li>
+            <li> Armas y tecnología avanzada: Cuenta con visión láser, sensores especiales y armamento incorporado que lo ayudan en combate.</li>
+            <li> Inteligencia artificial avanzada: Tiene la capacidad de razonar, aprender y tomar decisiones complejas como un ser humano. </li>
+            <li> Gran sentido de la justicia: Su principal motivación es proteger la paz y promover la convivencia entre humanos y robots.</li>
+        </ul>
+        </section>       
+                 
+        <section> 
+            <h2 id="s3">Ficha técnica</h2>
+            
+            <style>
+        table, th, td{
+            border: 1px solid black ;
+            border-collapse: collapse;       
+        }
+
+        tr:nth-child(even){
+            background-color: rgb(236, 43, 43);
+        }
+    </style>
+            
+  <table border="1">
+    
+    <tr> 
+        <th>Dato</th>
+        <th>Información</th>
+    </tr>
+
+    <tr>
+        <td>Nombre original</td>
+        <td>Tetsuwan Atom (鉄腕アトム)</td>
+    </tr>
+
+    <tr>
+        <td>Creador</td>
+        <td>Osamu Tezuka</td>
+    </tr>
+
+    <tr>
+        <td>Año de creación</td>
+        <td>1952</td>
+    </tr>
+
+    <tr>
+        <td>Primera serie de anime</td>
+        <td>1963</td>
+    </tr>
+
+    <tr>
+        <td>Altura</td>
+        <td>Aproximadamente 1.30 m</td>
+    </tr>
+
+    <tr>
+        <td>Peso</td>
+        <td>Aproximadamente 30 kg</td>
+    </tr>
+
+    <tr>
+        <td>Poderes principales</td>
+        <td>Súper fuerza, vuelo con propulsores, visión láser</td>
+    </tr>
+
+    <tr>
+        <td>Objetivo</td>
+        <td>Proteger la paz entre humanos y robots</td>
+    </tr>
+</table>
+        </section>     
+                 
+        <section> 
+    
+        <h1>Registro Oficial de Fans de Astro Boy</h1>
+
+<form>
+    <label for="nombre">Nombre completo:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <br><br>
+    
+    <label for="clave">Contraseña:</label>
+    <input type="password" id="clave" name="clave" required>
+    <br><br>
+
+    <p>¿Desde cuándo eres fan de Astro Boy?</p>
+
+    <input type="radio" id="clasico" name="fan" value="clasico">
+    <label for="clasico">Desde la serie clásica</label>
+
+    <input type="radio" id="moderno" name="fan" value="moderno">
+    <label for="moderno">Desde versiones modernas</label>
+    <br><br>
+
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" name="edad" min="1" required>
+    <br><br>
+
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" name="correo" required>
+    <br><br>
+
+    <label for="personaje">Personaje favorito:</label>
+    <select id="personaje" name="personaje">
+        <option value="astro">Astro Boy</option>
+        <option value="uran">Uran</option>
+        <option value="tenma">Dr. Tenma</option>
+        <option value="ochanomizu">Profesor Ochanomizu</option>
+    </select>
+    <br><br>
+
+    <input type="submit" value="Registrarse">
+    <input type="reset" value="Borrar">
+</form>
+        </section>     
+                 
+        <section> 
+            <h2 id="s5">Galería</h2> 
+            <!--imágenes--> 
+        </section> 
+             
+    </main> 
+     
+    <footer> 
+        <p>Creado por Dominic Calderon</p> 
+        <p>© Todos los derechos reservados</p> 
+    </footer> 
+</body>
+</html>
