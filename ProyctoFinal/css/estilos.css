@@ -105,7 +105,7 @@ TABLA (Box model)
 width: 100%;
 border-collapse: collapse;
 }
-.ficha th, .ficha td {
+th, td , tr{
 border: 1px solid #747474;
 padding: 10px;
 }
@@ -182,4 +182,10 @@ padding: 20px;
 background-color: #000;
 color: white;
 margin-top: 40px;
+}
+.seccion-ficha{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
 }
